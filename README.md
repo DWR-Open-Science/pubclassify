@@ -3,6 +3,9 @@
 `pubclassify` is an R package for finding peer-reviewed publications,
 standardizing their metadata, and organizing them into a user-defined taxonomy.
 
+Visit the [pkgdown site](https://dwr-open-science.github.io/pubclassify/) for
+reference documentation and articles.
+
 At a high level, the package:
 
 - retrieves publication metadata from OpenAlex, Scopus, and Crossref
