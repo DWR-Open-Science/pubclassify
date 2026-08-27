@@ -1,0 +1,56 @@
+url: https://dwr-open-science.github.io/pubclassify/
+
+template:
+  bootstrap: 5
+  bslib:
+    primary: "#1a2f4a"
+    info: "#4a9cad"
+    success: "#2d7a5f"
+    warning: "#c9a227"
+    body-bg: "#eef1f5"
+    body-color: "#253746"
+    link-color: "#2d7a8a"
+    link-hover-color: "#1a2f4a"
+  includes:
+    before_navbar: |
+      <div class="dwr-site-header">
+        <div class="dwr-site-brand">
+          <img src="https://dwr-open-science.github.io/pubclassify/dwr-logo-new.png" alt="California Department of Water Resources logo">
+          <span>California Department of Water Resources</span>
+        </div>
+        <div class="dwr-site-title">Publication Classification Tools</div>
+      </div>
+
+home:
+  title: "pubclassify: Retrieve and Classify Bibliometric Publications"
+  sidebar:
+    structure: [links, license, citation, authors]
+
+navbar:
+  structure:
+    left: [home, reference, articles]
+    right: [search, github]
+
+reference:
+  - title: Search and retrieve publications
+    contents:
+      - pc_search
+      - starts_with("pc_search_")
+      - pc_combine
+      - pc_deduplicate
+      - pc_fetch_abstracts
+      - pc_fetch_acknowledgments
+  - title: Funding utilities
+    contents:
+      - pc_find_funder
+      - pc_flag_awards
+  - title: Taxonomy and classification
+    contents:
+      - pc_taxonomy
+      - pc_taxonomy_example
+      - pc_classify
+  - title: Configuration
+    contents:
+      - pc_configure
+      - pc_config
+      - pc_save_config
