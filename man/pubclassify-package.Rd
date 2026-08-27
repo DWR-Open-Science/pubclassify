@@ -31,6 +31,15 @@ language models.
 }
 }
 
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://dwr-open-science.github.io/pubclassify/}
+  \item \url{https://github.com/DWR-Open-Science/pubclassify}
+  \item Report bugs at \url{https://github.com/DWR-Open-Science/pubclassify/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Lucy Andrews \email{lucy.andrews@water.ca.gov}
 

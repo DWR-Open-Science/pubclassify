@@ -1,0 +1,12 @@
+citHeader("To cite pubclassify in publications use:")
+
+meta <- packageDescription("pubclassify")
+
+citEntry(
+  entry = "Manual",
+  title = "pubclassify: Retrieve and Classify Bibliometric Publication Metadata",
+  author = person("Lucy Andrews, California Department of Water Resources", role = "cph"),
+  year = "2026",
+  note = paste("R package version", meta$Version),
+  url = "https://github.com/DWR-Open-Science/pubclassify"
+)

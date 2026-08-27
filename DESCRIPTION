@@ -8,6 +8,8 @@ Description: Retrieve peer-reviewed publication metadata from bibliometric
     classifying publications into user-defined scholarly field taxonomies
     using large language models.
 License: MIT + file LICENSE
+URL: https://dwr-open-science.github.io/pubclassify/, https://github.com/DWR-Open-Science/pubclassify
+BugReports: https://github.com/DWR-Open-Science/pubclassify/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Depends:
