@@ -451,8 +451,10 @@ saveRDS(classified, "vignettes/delta_smelt_classified.rds")
 ## Results
 
 ```{r load-cache, include = FALSE}
-classified <- readRDS("delta_smelt_classified.rds") |> 
-  dplyr::select(-authors, -affiliations, -funders, -grant_numbers)
+classified <- readr::read_csv("delta_smelt_classified.csv", show_col_types = FALSE) |>
+  dplyr::select(-dplyr::any_of(c(
+    "authors", "affiliations", "funders", "grant_numbers"
+  )))
 ```
 
 The search returned `r nrow(classified)` peer-reviewed articles. After
