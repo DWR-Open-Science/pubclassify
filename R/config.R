@@ -83,6 +83,7 @@ pc_configure <- function(
 #' @return Invisibly returns the configuration as a named list, with key
 #'   values replaced by `"<set>"` or `"<not set>"`.
 #' @export
+#' @importFrom stats setNames
 #'
 #' @examples
 #' pc_config()

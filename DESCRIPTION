@@ -14,13 +14,13 @@ Depends:
     R (>= 4.1.0)
 Imports:
     cli,
-    dplyr,
     ellmer,
     httr2,
     jsonlite,
     rlang,
     tibble
 Suggests:
+    dplyr,
     ggplot2,
     httptest2,
     knitr,
